@@ -1,0 +1,16 @@
+NJRecallsOthers
+履歴:history://history
+ブックマーク:bookmark://bookmark
+URLを開く...:askexternal://askexternal
+: 
+◆忍◆ ニンジャ名鑑 ◆殺◆:http://togetter.com/li/72754
+コミカライズ（実況）:http://www.rnatori.net/NJRecalls/NJRecallsCartoons.txt
+最近のアナウンス:http://www.rnatori.net/NJRecalls/NJRecallsAnnouncements.txt
+連載中の関連エピソード:http://www.rnatori.net/NJRecalls/NJRecallsRelated.txt
+: 
+ロンゲスト・デイ・オブ・アマクダリ重点
+これまでのエピソード:http://www.rnatori.net/NJRecalls/NJRecallsLongestDay.txt
+物理書籍実況
+物理書籍実況:http://www.rnatori.net/NJRecalls/NJRecallsBookLive.txt
+アニメ化されたエピソード
+アニメ化されたエピソードリスト:http://www.rnatori.net/NJRecalls/NJRecallsAnimatedEpisodes.txt

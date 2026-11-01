@@ -1,0 +1,7 @@
+NJRecallsManuals
+:NJRecallsも機能が増えてきましたので、一度マニュアルをまとめてみたいと思います。順次追加予定。
+基本編:http://njrecalls.hatenablog.com/entry/2016/04/16/100006
+インタビュー・名鑑など:http://njrecalls.hatenablog.com/entry/2016/04/18/170529
+マキモノモード:http://njrecalls.hatenablog.com/entry/2016/04/20/111644
+読み上げとオートスクロール:http://njrecalls.hatenablog.com/entry/2016/04/20/120008
+設定（文字サイズとカラー）:http://njrecalls.hatenablog.com/entry/2016/05/22/152214

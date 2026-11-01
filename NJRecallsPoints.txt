@@ -1,0 +1,51 @@
+NJRecallsPoints
+RTによるDHP:Point:100 Multiple:1:njrtwilog://190607-6-13
+物理DHP:Point:10000 Multiple:1:njrtwilog://dhtls/170407-1-1
+多分いつでもできるやつ
+再放送DIY挿絵:Point:2000 Multiple:1:njrtwilog://170419-1-4
+ブロッゴー:Point:1000 Multiple:1:njrtwilog://131126-1-1
+書籍ウキヨエメント:Point:1000 Multiple:1:njrtwilog://131126-2-2
+ペイルホースキャンペーン:Point:250 Multiple:1:njrtwilog://diehardtales/150215-0-2
+ニンジャセンタ試験2018 
+入賞者 :Point:50000 Multiple:0:njrtwilog://180211-19-22
+Ninja Slayer GO ver2.0 フォトコン(DHP)
+V賞:Point:10000 Multiple:0:njrtwilog://170131-7-9
+イビヤモ賞:Point:10000 Multiple:0:njrtwilog://170131-10-11
+ボンド＆モーゼズ賞:Point:20000 Multiple:0:njrtwilog://170131-12-13
+ダイハードテイルズラジオ(DHP)
+質問採用者(500):Point:500 Multiple:1:njrtwilog://dhtls/160624-0-99
+質問採用者(2000):Point:2000 Multiple:1:njrtwilog://dhtls/161129-0-99
+ニンジャンボリー2016-2017
+縁起物コン:Point:10000 Multiple:0:njrtwilog://170108-25-30
+ニンジャスレイヤー第３部完結記念、オーボン・ワオワオ祭り
+参加賞:Point:1000 Multiple:0:njrtwilog://160815-72-72
+ボンド賞:Point:10000 Multiple:0:njrtwilog://160815-73-75/160815-82-84/160816-0-2
+モーゼズ賞:Point:10000 Multiple:0:njrtwilog://160815-76-78/160815-85-87/160816-3-5
+イビヤモ賞:Point:10000 Multiple:0:njrtwilog://160815-79-81/160815-88-90/160816-6-8
+ニンジャ読書感想コンクール
+応募者:Point:2000 Multiple:0:njrtwilog://150830-0-6
+入選者:Point:1000 Multiple:0:njrtwilog://150901-10-35
+ニンジャ大臣賞:Point:25000 Multiple:0:njrtwilog://150901-36-41
+物理書籍実況チャレンジ
+ライズ・オブ・アマクダリ:Point:1500 Multiple:1:njrtwilog://150426-15-20
+ハウンド・オブ・ニンジャ:Point:1500 Multiple:1:njrtwilog://150425-41-50
+オーゾニ・コン2015
+オーゾニ・コン2015:Point:500 Multiple:1:njrtwilog://150101-0-6
+クラウド挿し絵テーション
+クラウド挿し絵テーション:Point:10000 Multiple:1:njrtwilog://140713-0-7
+ニンジャ書籍コン
+各特別賞:Point:25000 Multiple:0:njrtwilog://140617-7-19
+ボンド賞:Point:50000 Multiple:0:njrtwilog://140617-20-25
+モーゼズ賞:Point:50000 Multiple:0:njrtwilog://140617-26-31
+: 
+個人授与
+ウキヨエ空間創立者:Point:500000 Multiple:0:njrtwilog://140224-0-4
+Wiki移転助力者:Point:220000 Multiple:0:njrtwilog://140329-44-45
+リンク切れ指摘者:Point:55005 Multiple:0:njrtwilog://140922-27-28
+質疑応答検索者:Point:5000 Multiple:0:njrtwilog://the_v_njslyr/141022-0-0
+2014投票集計者:Point:100000 Multiple:0:njrtwilog://141225-13-19
+2014投票まとめ者:Point:400000 Multiple:0:njrtwilog://150105-6-25
+第２部投票集計者:Point:300000 Multiple:0:njrtwilog://150303-33-33/150304-0-1
+NFRまとめ者:Point:15000 Multiple:0:njrtwilog://150411-0-7
+2015投票まとめ者:Point:800000 Multiple:0:njrtwilog://160103-2-39
+iPadでのnote操作者 :Point:3000 Multiple:0:njrtwilog://dhtls/170616-13-13

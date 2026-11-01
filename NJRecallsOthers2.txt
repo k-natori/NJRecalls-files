@@ -1,0 +1,26 @@
+NJRecallsOthers
+履歴:history://history
+ブックマーク:bookmark://bookmark
+DHNJSP通帳:points://points
+URLを開く...:askexternal://askexternal
+: 
+コミカライズ（実況のみ）
+ニンジャスレイヤー（コミカライズ版）:http://www.rnatori.net/NJRecalls/NJRecallsCartoon1.txt
+ニンジャスレイヤー　グラマラス・キラーズ:http://www.rnatori.net/NJRecalls/NJRecallsCartoon2.txt
+ニンジャスレイヤー殺（キルズ）:http://www.rnatori.net/NJRecalls/NJRecallsCartoon3.txt
+: 
+ニンジャスレイヤープラス
+プラス総合目次:https://diehardtales.com/n/nd9ea95a7fd60
+: 
+アナウンスなど
+最近のアナウンス:http://www.rnatori.net/NJRecalls/NJRecallsAnnouncements.txt
+アニメ化されたエピソード
+アニメ化されたエピソードリスト:http://www.rnatori.net/NJRecalls/NJRecallsAnimatedEpisodes.txt
+物理書籍実況
+物理書籍実況:http://www.rnatori.net/NJRecalls/NJRecallsBookLive.txt
+エイプリルフール／モクヒルなど
+エイプリルフール／モクヒルなど:https://lolipop-7154e0d52d53852b.ssl-lolipop.jp/NJRecalls/NJRecallsAprilAndThursday.txt
+: 
+年末年始ニンジャンボリー2016 to 2017
+エピソード投票:http://www.rnatori.net/NJRecalls/NJRecalls2016vote.txt
+そのた企画:https://togetter.com/li/1062679

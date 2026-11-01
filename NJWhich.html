@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ボン度計算</title>
+<link rel="stylesheet" href="../standard/columns.css" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+    function OnCalculate() {
+        let string = document.inputForm.input.value;
+        string = string.replace(/\s+/g, "");
+        let table = document.getElementById("resultTable");
+        let wordRowCells = table.rows[1].cells;
+        let resultRowCells = table.rows[2].cells;
+        
+        let bondFactor = 0
+        
+        for( var i = 0; i < wordRowCells.length; i++  ){
+            let word = wordRowCells[i].innerHTML;
+            let count = ( string.match( new RegExp( word, "g" ) ) || [] ).length;
+            resultRowCells[i+1].innerHTML = count;
+            if (i<10) {
+                bondFactor += count;
+            } else {
+                bondFactor -= count;
+            }
+        }
+        resultRowCells[0].innerHTML = bondFactor;
+
+    }
+</script>
+
+</head>
+<body>
+<p>
+<a href="https://note.com/njrecalls/n/n9476cf91cc1c">元記事：2部のボンドは目を細めがち？Trigram解析によるボンド＆モーゼズ、あるいは各担当翻訳者の違い</a>
+</p>
+<p>
+<form name="inputForm">
+<label for="input">ソース文字列</label><br>
+<textarea id="input" name="input" cols="40" rows="10"  placeholder="ここにソース文字列をペースト"></textarea>
+</form>
+<input type="button" value="計算" onclick="OnCalculate();"/>
+</p>
+<table id="resultTable" border="1">
+<tr>
+<th rowspan="2">ボン度</th>
+<th colspan="10">ボンド担当チームが使いがち</th>
+<th colspan="9">モーゼズ担当チームが使いがち</th>
+</tr>
+<tr>
+<td>ってわけ</td>
+<td>では無</td>
+<td>襲いかか</td>
+<td>」「う</td>
+<td>ツカツカ</td>
+<td>目を細め</td>
+<td>る事は</td>
+<td>…イヤ</td>
+<td>のすぐ</td>
+<td>はしか</td>
+<td>へと向</td>
+<td>解らな</td>
+<td>に憑依</td>
+<td>ヤクザたち</td>
+<td>の横に</td>
+<td>プログラム</td>
+<td>などが</td>
+<td>男が、</td>
+<td>の隅に</td>					
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
+
+</body>
+</html>

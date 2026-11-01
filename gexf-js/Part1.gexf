@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-08-28">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="ゼロ・トレラント・サンスイ" label="ゼロ・トレラント・サンスイ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-48.802994" y="-142.39497"></viz:position>
+        <viz:color r="210" g="237" b="233"></viz:color>
+      </node>
+      <node id="ニンジャスレイヤー" label="ニンジャスレイヤー">
+        <viz:size value="12.0"></viz:size>
+        <viz:position x="7.4205923" y="-66.79548"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ミニットマン" label="ミニットマン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-76.10875" y="-158.8163"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="イクエイション" label="イクエイション">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-57.450047" y="-167.11368"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ネオヤクザ・フォー・セル" label="ネオヤクザ・フォー・セル">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="63.6235" y="96.46127"></viz:position>
+        <viz:color r="219" g="240" b="239"></viz:color>
+      </node>
+      <node id="ラオモト・カン" label="ラオモト・カン">
+        <viz:size value="6.96"></viz:size>
+        <viz:position x="-21.78808" y="102.492256"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ヒュージシュリケン" label="ヒュージシュリケン">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="128.14377" y="53.44737"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="メナス・オブ・ダークニンジャ" label="メナス・オブ・ダークニンジャ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="120.03221" y="4.525889"></viz:position>
+        <viz:color r="201" g="233" b="227"></viz:color>
+      </node>
+      <node id="ユカノ" label="ユカノ">
+        <viz:size value="5.84"></viz:size>
+        <viz:position x="168.49986" y="-25.421366"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ドラゴン・ゲンドーソー" label="ドラゴン・ゲンドーソー">
+        <viz:size value="5.84"></viz:size>
+        <viz:position x="186.89272" y="-12.032582"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ダークニンジャ" label="ダークニンジャ">
+        <viz:size value="6.4"></viz:size>
+        <viz:position x="79.58172" y="147.36339"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="サプライズド・ドージョー" label="サプライズド・ドージョー">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="147.505" y="15.236322"></viz:position>
+        <viz:color r="183" g="226" b="216"></viz:color>
+      </node>
+      <node id="アースクエイク" label="アースクエイク">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="184.56151" y="21.819902"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ヘルカイト" label="ヘルカイト">
+        <viz:size value="5.84"></viz:size>
+        <viz:position x="94.30942" y="119.9532"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ベイン・オブ・サーペント" label="ベイン・オブ・サーペント">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="37.773106" y="-147.83871"></viz:position>
+        <viz:color r="210" g="237" b="233"></viz:color>
+      </node>
+      <node id="ナンシー" label="ナンシー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="55.66398" y="-165.95462"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="コッカトリス" label="コッカトリス">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="38.177246" y="-177.26428"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フィスト・フィルド・ウィズ・リグレット・アンド・オハギ" label="フィスト・フィルド・ウィズ・リグレット・アンド・オハギ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="105.16601" y="66.51695"></viz:position>
+        <viz:color r="210" g="237" b="233"></viz:color>
+      </node>
+      <node id="インターラプター" label="インターラプター">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="139.46364" y="74.50781"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ウォーロック" label="ウォーロック">
+        <viz:size value="5.84"></viz:size>
+        <viz:position x="124.32723" y="182.23813"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="キルゾーン・スモトリ" label="キルゾーン・スモトリ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="79.8977" y="-191.30078"></viz:position>
+        <viz:color r="201" g="233" b="227"></viz:color>
+      </node>
+      <node id="アイアンヴァイス" label="アイアンヴァイス">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="80.32228" y="-219.09213"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="サトウ" label="サトウ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="99.88071" y="-225.18301"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ナガム" label="ナガム">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="103.655914" y="-205.38744"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アポカリプス・インサイド・テインティッド・ソイル" label="アポカリプス・インサイド・テインティッド・ソイル">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="29.933512" y="-3.7456071"></viz:position>
+        <viz:color r="183" g="226" b="216"></viz:color>
+      </node>
+      <node id="ナンシー・リー" label="ナンシー・リー">
+        <viz:size value="7.24"></viz:size>
+        <viz:position x="9.596777" y="32.345497"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・サワタリ" label="フォレスト・サワタリ">
+        <viz:size value="5.84"></viz:size>
+        <viz:position x="-12.544693" y="66.409485"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・フロッグマン" label="フォレスト・フロッグマン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="55.509735" y="-22.846603"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・ノトーリアス" label="フォレスト・ノトーリアス">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="1.4785197" y="-8.494582"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・ディスターブド" label="フォレスト・ディスターブド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="59.760113" y="-3.239238"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="スシ・ナイト・アット・ザ・バリケード" label="スシ・ナイト・アット・ザ・バリケード">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="56.373253" y="-279.98883"></viz:position>
+        <viz:color r="183" g="226" b="216"></viz:color>
+      </node>
+      <node id="エクスプロシブ" label="エクスプロシブ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="63.38196" y="-304.28748"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ラプチャー" label="ラプチャー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="83.72018" y="-296.89294"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アムニジア" label="アムニジア">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="24.692822" y="-303.79572"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="モーターヤブ" label="モーターヤブ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="78.36707" y="-317.8735"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="2COOLリリック" label="2COOLリリック">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="55.158447" y="-321.32263"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="チャブドメイン・カーネイジ" label="チャブドメイン・カーネイジ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-55.056572" y="-201.88643"></viz:position>
+        <viz:color r="201" g="233" b="227"></viz:color>
+      </node>
+      <node id="インフェクション" label="インフェクション">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-72.580246" y="-237.35371"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ヴィトリオール" label="ヴィトリオール">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-78.575134" y="-217.99495"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ゴッドハンド" label="ゴッドハンド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-53.73778" y="-229.94878"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ユーレイ・ダンシング・オン・コンクリート・ハカバ" label="ユーレイ・ダンシング・オン・コンクリート・ハカバ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-97.04949" y="-10.067103"></viz:position>
+        <viz:color r="174" g="222" b="210" a="0.99607843"></viz:color>
+      </node>
+      <node id="ダイダロス" label="ダイダロス">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="-69.6491" y="-10.787487"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="スコルピオン" label="スコルピオン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-132.8905" y="-22.596365"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ヤマダ・ヨリトモ" label="ヤマダ・ヨリトモ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-125.89185" y="-3.7245905"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="カーディナル・ダークソード" label="カーディナル・ダークソード">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-118.20541" y="-34.239708"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="リー先生" label="リー先生">
+        <viz:size value="5.84"></viz:size>
+        <viz:position x="-162.41434" y="51.430298"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="キックアウト・ザ・ニンジャ・マザーファッカー" label="キックアウト・ザ・ニンジャ・マザーファッカー">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="202.54695" y="-63.197304"></viz:position>
+        <viz:color r="174" g="222" b="210" a="0.99607843"></viz:color>
+      </node>
+      <node id="アゴニィ" label="アゴニィ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="229.59938" y="-70.81187"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ギンイチ" label="ギンイチ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="241.84991" y="-55.119884"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="イチジク" label="イチジク">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="247.61441" y="-78.40515"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アベ一休" label="アベ一休">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="227.80579" y="-91.13849"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="レイジ・アゲンスト・トーフ" label="レイジ・アゲンスト・トーフ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-146.1662" y="-227.6934"></viz:position>
+        <viz:color r="183" g="226" b="216"></viz:color>
+      </node>
+      <node id="シガキ・サイゼン" label="シガキ・サイゼン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-167.14735" y="-265.5209"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="シガキ・ナラク" label="シガキ・ナラク">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-163.94135" y="-245.9384"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="シガキ・バンディット" label="シガキ・バンディット">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-183.48729" y="-249.07845"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="シガキ・ビホルダー" label="シガキ・ビホルダー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-176.79805" y="-228.54674"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="シガキ・ダークニンジャ" label="シガキ・ダークニンジャ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-146.7049" y="-258.73993"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="メリークリスマス・ネオサイタマ" label="メリークリスマス・ネオサイタマ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-176.08601" y="-17.378378"></viz:position>
+        <viz:color r="147" g="212" b="193"></viz:color>
+      </node>
+      <node id="フロストバイト" label="フロストバイト">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-199.17712" y="-36.50763"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ノボセ・ゲンソン" label="ノボセ・ゲンソン">
+        <viz:size value="5.84"></viz:size>
+        <viz:position x="-113.0226" y="39.347965"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ノボセ・キングピン" label="ノボセ・キングピン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-216.81546" y="-47.913536"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ノボセ・ムギコ" label="ノボセ・ムギコ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-226.98196" y="-11.281434"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ノボセ・モウタロウ" label="ノボセ・モウタロウ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-207.47742" y="-3.6600506"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ノボセ・2COOLリリック" label="ノボセ・2COOLリリック">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-196.87859" y="-54.943756"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ノボセ・フユコ" label="ノボセ・フユコ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-211.2267" y="-23.161007"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ノボセ・トチノキ" label="ノボセ・トチノキ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-228.8758" y="-32.375977"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="コンスピーラシィ・アポン・ザ・ブロークン・ブレイド" label="コンスピーラシィ・アポン・ザ・ブロークン・ブレイド">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="115.63878" y="256.9221"></viz:position>
+        <viz:color r="183" g="226" b="216"></viz:color>
+      </node>
+      <node id="オブリヴィオン" label="オブリヴィオン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="135.20439" y="295.89465"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ナインフィンガー" label="ナインフィンガー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="116.037895" y="289.81638"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ゴンベモン" label="ゴンベモン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="142.09929" y="277.07443"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="マスター・トータス" label="マスター・トータス">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="49.605278" y="249.26343"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フジ・サン・ライジング" label="フジ・サン・ライジング">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="43.88362" y="64.55782"></viz:position>
+        <viz:color r="165" g="219" b="204"></viz:color>
+      </node>
+      <node id="スナバ" label="スナバ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="64.01944" y="45.68392"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ディンタキ・カツマ" label="ディンタキ・カツマ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="76.31796" y="60.438133"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="キロバキ" label="キロバキ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="40.568047" y="91.471146"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="サボター" label="サボター">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="67.84661" y="76.95755"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ワン・ミニット・ビフォア・ザ・タヌキ" label="ワン・ミニット・ビフォア・ザ・タヌキ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-27.391575" y="-1.3623481"></viz:position>
+        <viz:color r="174" g="222" b="210" a="0.99607843"></viz:color>
+      </node>
+      <node id="フォレスト・ガガイケ" label="フォレスト・ガガイケ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-50.412457" y="8.715985"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・カオルコ" label="フォレスト・カオルコ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-43.62561" y="-22.637705"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ストレンジャー・ストレンジャー・ザン・フィクション" label="ストレンジャー・ストレンジャー・ザン・フィクション">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="137.40692" y="143.90396"></viz:position>
+        <viz:color r="81" g="177" b="140"></viz:color>
+      </node>
+      <node id="トラッフルホッグ" label="トラッフルホッグ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="157.11716" y="193.45766"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ブラックバード" label="ブラックバード">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="190.33873" y="134.01985"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ビーハイヴ" label="ビーハイヴ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="171.82512" y="123.369965"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ワイアード" label="ワイアード">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="171.26518" y="175.31651"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="テンカウント" label="テンカウント">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="172.83641" y="142.21623"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アルバトロス" label="アルバトロス">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="178.41185" y="191.4346"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ゼブラ" label="ゼブラ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="192.1294" y="174.2881"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="クイックサンド" label="クイックサンド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="163.93938" y="159.37544"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="バタフライ" label="バタフライ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="199.05281" y="152.32529"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ストーンゴーレム" label="ストーンゴーレム">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="151.33101" y="175.90817"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アガタ・マリア" label="アガタ・マリア">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="59.35862" y="187.7558"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="バジリスク" label="バジリスク">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="182.13626" y="158.36226"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="デッドムーン・オン・ザ・レッドスカイ" label="デッドムーン・オン・ザ・レッドスカイ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-126.041306" y="91.37437"></viz:position>
+        <viz:color r="165" g="219" b="204"></viz:color>
+      </node>
+      <node id="デッドムーン" label="デッドムーン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-156.64484" y="92.741394"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="スガワラノ・トミヒデ" label="スガワラノ・トミヒデ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-145.44977" y="114.25083"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="レベナント" label="レベナント">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-161.66945" y="124.96045"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="クルーカット" label="クルーカット">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="-99.46008" y="154.50365"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="セントリー" label="セントリー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-169.64268" y="106.98697"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アット・ザ・トリーズナーズヴィル" label="アット・ザ・トリーズナーズヴィル">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-10.020319" y="-283.62332"></viz:position>
+        <viz:color r="183" g="226" b="216"></viz:color>
+      </node>
+      <node id="フリックショット" label="フリックショット">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-12.964198" y="-308.63467"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アンサラー" label="アンサラー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-3.470245" y="-324.90378"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="プロミネンス" label="プロミネンス">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-34.365623" y="-303.7525"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="バスター・テツオ" label="バスター・テツオ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-26.71729" y="-323.7494"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ネクロマンティック・フィードバック" label="ネクロマンティック・フィードバック">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-207.15402" y="70.93232"></viz:position>
+        <viz:color r="165" g="219" b="204"></viz:color>
+      </node>
+      <node id="ジェノサイド" label="ジェノサイド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-237.08067" y="78.32682"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ウィルオーウィスプ" label="ウィルオーウィスプ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-232.11037" y="99.02008"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アンドウ・コウタロウ" label="アンドウ・コウタロウ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-241.83577" y="57.65195"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="シンゴ・アモ" label="シンゴ・アモ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-251.96704" y="92.82759"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="タバタ・ヤスキリ" label="タバタ・ヤスキリ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-256.98685" y="71.79083"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ブラックヘイズ" label="ブラックヘイズ">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="-141.50279" y="150.77516"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ア・カインド・オブ・サツバツ・ナイト" label="ア・カインド・オブ・サツバツ・ナイト">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-1.2242427" y="-161.80544"></viz:position>
+        <viz:color r="210" g="237" b="233"></viz:color>
+      </node>
+      <node id="レオパルド" label="レオパルド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="6.5515156" y="-191.85081"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ノリべ" label="ノリべ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-12.848233" y="-187.32916"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="オウガ・ザ・コールドスティール" label="オウガ・ザ・コールドスティール">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-57.415436" y="73.507065"></viz:position>
+        <viz:color r="183" g="226" b="216"></viz:color>
+      </node>
+      <node id="サブロ老人" label="サブロ老人">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-82.37361" y="66.57633"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="マノキノ" label="マノキノ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-85.51786" y="86.95557"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="オムラ・チャールストン" label="オムラ・チャールストン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-70.057625" y="98.72061"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="モータードクロ" label="モータードクロ">
+        <viz:size value="5.56"></viz:size>
+        <viz:position x="-57.3173" y="139.44765"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="グランス・オブ・マザーカース" label="グランス・オブ・マザーカース">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="99.321785" y="-88.3823"></viz:position>
+        <viz:color r="174" g="222" b="210" a="0.99607843"></viz:color>
+      </node>
+      <node id="バーバヤガ" label="バーバヤガ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="126.376564" y="-123.393295"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="シルバーキー" label="シルバーキー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="140.39577" y="-106.18232"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ケジメニンジャ" label="ケジメニンジャ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="130.69427" y="-86.69349"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="インクィジター" label="インクィジター">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="120.3586" y="-104.59918"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="コラプション" label="コラプション">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="105.01291" y="-118.95475"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="バイオテック・イズ・チュパカブラ" label="バイオテック・イズ・チュパカブラ">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-84.556114" y="-58.49371"></viz:position>
+        <viz:color r="174" g="222" b="210" a="0.99607843"></viz:color>
+      </node>
+      <node id="ムギコ" label="ムギコ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-112.71517" y="-95.67119"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="モウタロウ" label="モウタロウ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-125.74655" y="-77.97464"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="チュパカブラ" label="チュパカブラ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-107.00836" y="-75.081436"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="オダワラ" label="オダワラ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-92.11551" y="-91.0481"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ラスト・ガール・スタンディング" label="ラスト・ガール・スタンディング">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="157.02057" y="-197.9159"></viz:position>
+        <viz:color r="191" g="230" b="222" a="0.99607843"></viz:color>
+      </node>
+      <node id="ヤモト・コキ" label="ヤモト・コキ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="167.52185" y="-232.32018"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ショーゴー・マグチ" label="ショーゴー・マグチ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="175.73392" y="-214.42615"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="スーサイド" label="スーサイド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="190.92871" y="-226.57599"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ソニックブーム" label="ソニックブーム">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="191.79576" y="-202.67792"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ネオサイタマ・イン・フレイム" label="ネオサイタマ・イン・フレイム">
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-33.037445" y="190.36075"></viz:position>
+        <viz:color r="0" g="109" b="44"></viz:color>
+      </node>
+      <node id="ナラク" label="ナラク">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-5.307488" y="245.83913"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="マスター・クレイン" label="マスター・クレイン">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-21.708776" y="238.19878"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="タダオ" label="タダオ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-69.67152" y="225.22192"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ラオモトの声" label="ラオモトの声">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-22.87176" y="256.5335"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ラオモト・チバ" label="ラオモト・チバ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-87.69773" y="226.9826"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ゲイトキーパー" label="ゲイトキーパー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="1.9960983" y="208.07724"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="スパイダー" label="スパイダー">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-84.98242" y="207.74391"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="デビルフィッシュ" label="デビルフィッシュ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-56.44748" y="237.9625"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="レイザーエッジ" label="レイザーエッジ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-74.07649" y="190.63306"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ウォーターボード" label="ウォーターボード">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-51.600834" y="221.19748"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="アルマジロ" label="アルマジロ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-34.235912" y="225.54091"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="モービッド" label="モービッド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-41.71731" y="260.1153"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="ネコネコカワイイ" label="ネコネコカワイイ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-14.3558445" y="221.66139"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・アラクニッド" label="フォレスト・アラクニッド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="3.126777" y="228.30643"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・シバタ・ソウジロウ" label="フォレスト・シバタ・ソウジロウ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-75.60251" y="243.43709"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・ジェノサイド" label="フォレスト・ジェノサイド">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-65.46265" y="207.84431"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・カナガワ" label="フォレスト・カナガワ">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-39.577244" y="242.41078"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+      <node id="フォレスト・クルーカット" label="フォレスト・クルーカット">
+        <viz:size value="5.28"></viz:size>
+        <viz:position x="-60.16026" y="255.49461"></viz:position>
+        <viz:color r="237" g="248" b="251"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="ゼロ・トレラント・サンスイ" target="ニンジャスレイヤー"></edge>
+      <edge id="1" source="ゼロ・トレラント・サンスイ" target="ミニットマン"></edge>
+      <edge id="2" source="ゼロ・トレラント・サンスイ" target="イクエイション"></edge>
+      <edge id="3" source="ネオヤクザ・フォー・セル" target="ラオモト・カン"></edge>
+      <edge id="4" source="ネオヤクザ・フォー・セル" target="ヒュージシュリケン"></edge>
+      <edge id="5" source="メナス・オブ・ダークニンジャ" target="ニンジャスレイヤー"></edge>
+      <edge id="6" source="メナス・オブ・ダークニンジャ" target="ユカノ"></edge>
+      <edge id="7" source="メナス・オブ・ダークニンジャ" target="ドラゴン・ゲンドーソー"></edge>
+      <edge id="8" source="メナス・オブ・ダークニンジャ" target="ダークニンジャ"></edge>
+      <edge id="9" source="サプライズド・ドージョー" target="ニンジャスレイヤー"></edge>
+      <edge id="10" source="サプライズド・ドージョー" target="ドラゴン・ゲンドーソー"></edge>
+      <edge id="11" source="サプライズド・ドージョー" target="ユカノ"></edge>
+      <edge id="12" source="サプライズド・ドージョー" target="ヒュージシュリケン"></edge>
+      <edge id="13" source="サプライズド・ドージョー" target="アースクエイク"></edge>
+      <edge id="14" source="サプライズド・ドージョー" target="ヘルカイト"></edge>
+      <edge id="15" source="ベイン・オブ・サーペント" target="ニンジャスレイヤー"></edge>
+      <edge id="16" source="ベイン・オブ・サーペント" target="ナンシー"></edge>
+      <edge id="17" source="ベイン・オブ・サーペント" target="コッカトリス"></edge>
+      <edge id="18" source="フィスト・フィルド・ウィズ・リグレット・アンド・オハギ" target="ニンジャスレイヤー"></edge>
+      <edge id="19" source="フィスト・フィルド・ウィズ・リグレット・アンド・オハギ" target="インターラプター"></edge>
+      <edge id="20" source="フィスト・フィルド・ウィズ・リグレット・アンド・オハギ" target="ウォーロック"></edge>
+      <edge id="21" source="キルゾーン・スモトリ" target="ニンジャスレイヤー"></edge>
+      <edge id="22" source="キルゾーン・スモトリ" target="アイアンヴァイス"></edge>
+      <edge id="23" source="キルゾーン・スモトリ" target="サトウ"></edge>
+      <edge id="24" source="キルゾーン・スモトリ" target="ナガム"></edge>
+      <edge id="25" source="アポカリプス・インサイド・テインティッド・ソイル" target="ニンジャスレイヤー"></edge>
+      <edge id="26" source="アポカリプス・インサイド・テインティッド・ソイル" target="ナンシー・リー"></edge>
+      <edge id="27" source="アポカリプス・インサイド・テインティッド・ソイル" target="フォレスト・サワタリ"></edge>
+      <edge id="28" source="アポカリプス・インサイド・テインティッド・ソイル" target="フォレスト・フロッグマン"></edge>
+      <edge id="29" source="アポカリプス・インサイド・テインティッド・ソイル" target="フォレスト・ノトーリアス"></edge>
+      <edge id="30" source="アポカリプス・インサイド・テインティッド・ソイル" target="フォレスト・ディスターブド"></edge>
+      <edge id="31" source="スシ・ナイト・アット・ザ・バリケード" target="ニンジャスレイヤー"></edge>
+      <edge id="32" source="スシ・ナイト・アット・ザ・バリケード" target="エクスプロシブ"></edge>
+      <edge id="33" source="スシ・ナイト・アット・ザ・バリケード" target="ラプチャー"></edge>
+      <edge id="34" source="スシ・ナイト・アット・ザ・バリケード" target="アムニジア"></edge>
+      <edge id="35" source="スシ・ナイト・アット・ザ・バリケード" target="モーターヤブ"></edge>
+      <edge id="36" source="スシ・ナイト・アット・ザ・バリケード" target="2COOLリリック"></edge>
+      <edge id="37" source="チャブドメイン・カーネイジ" target="ニンジャスレイヤー"></edge>
+      <edge id="38" source="チャブドメイン・カーネイジ" target="インフェクション"></edge>
+      <edge id="39" source="チャブドメイン・カーネイジ" target="ヴィトリオール"></edge>
+      <edge id="40" source="チャブドメイン・カーネイジ" target="ゴッドハンド"></edge>
+      <edge id="41" source="ユーレイ・ダンシング・オン・コンクリート・ハカバ" target="ニンジャスレイヤー"></edge>
+      <edge id="42" source="ユーレイ・ダンシング・オン・コンクリート・ハカバ" target="ナンシー・リー"></edge>
+      <edge id="43" source="ユーレイ・ダンシング・オン・コンクリート・ハカバ" target="ダイダロス"></edge>
+      <edge id="44" source="ユーレイ・ダンシング・オン・コンクリート・ハカバ" target="スコルピオン"></edge>
+      <edge id="45" source="ユーレイ・ダンシング・オン・コンクリート・ハカバ" target="ヤマダ・ヨリトモ"></edge>
+      <edge id="46" source="ユーレイ・ダンシング・オン・コンクリート・ハカバ" target="カーディナル・ダークソード"></edge>
+      <edge id="47" source="ユーレイ・ダンシング・オン・コンクリート・ハカバ" target="リー先生"></edge>
+      <edge id="48" source="キックアウト・ザ・ニンジャ・マザーファッカー" target="ニンジャスレイヤー"></edge>
+      <edge id="49" source="キックアウト・ザ・ニンジャ・マザーファッカー" target="アゴニィ"></edge>
+      <edge id="50" source="キックアウト・ザ・ニンジャ・マザーファッカー" target="ギンイチ"></edge>
+      <edge id="51" source="キックアウト・ザ・ニンジャ・マザーファッカー" target="イチジク"></edge>
+      <edge id="52" source="キックアウト・ザ・ニンジャ・マザーファッカー" target="アベ一休"></edge>
+      <edge id="53" source="キックアウト・ザ・ニンジャ・マザーファッカー" target="ユカノ"></edge>
+      <edge id="54" source="キックアウト・ザ・ニンジャ・マザーファッカー" target="ドラゴン・ゲンドーソー"></edge>
+      <edge id="55" source="レイジ・アゲンスト・トーフ" target="ニンジャスレイヤー"></edge>
+      <edge id="56" source="レイジ・アゲンスト・トーフ" target="シガキ・サイゼン"></edge>
+      <edge id="57" source="レイジ・アゲンスト・トーフ" target="シガキ・ナラク"></edge>
+      <edge id="58" source="レイジ・アゲンスト・トーフ" target="シガキ・バンディット"></edge>
+      <edge id="59" source="レイジ・アゲンスト・トーフ" target="シガキ・ビホルダー"></edge>
+      <edge id="60" source="レイジ・アゲンスト・トーフ" target="シガキ・ダークニンジャ"></edge>
+      <edge id="61" source="メリークリスマス・ネオサイタマ" target="ニンジャスレイヤー"></edge>
+      <edge id="62" source="メリークリスマス・ネオサイタマ" target="ラオモト・カン"></edge>
+      <edge id="63" source="メリークリスマス・ネオサイタマ" target="フロストバイト"></edge>
+      <edge id="64" source="メリークリスマス・ネオサイタマ" target="ノボセ・ゲンソン"></edge>
+      <edge id="65" source="メリークリスマス・ネオサイタマ" target="ノボセ・キングピン"></edge>
+      <edge id="66" source="メリークリスマス・ネオサイタマ" target="ノボセ・ムギコ"></edge>
+      <edge id="67" source="メリークリスマス・ネオサイタマ" target="ノボセ・モウタロウ"></edge>
+      <edge id="68" source="メリークリスマス・ネオサイタマ" target="ノボセ・2COOLリリック"></edge>
+      <edge id="69" source="メリークリスマス・ネオサイタマ" target="ノボセ・フユコ"></edge>
+      <edge id="70" source="メリークリスマス・ネオサイタマ" target="ノボセ・トチノキ"></edge>
+      <edge id="71" source="コンスピーラシィ・アポン・ザ・ブロークン・ブレイド" target="ダークニンジャ"></edge>
+      <edge id="72" source="コンスピーラシィ・アポン・ザ・ブロークン・ブレイド" target="オブリヴィオン"></edge>
+      <edge id="73" source="コンスピーラシィ・アポン・ザ・ブロークン・ブレイド" target="ナインフィンガー"></edge>
+      <edge id="74" source="コンスピーラシィ・アポン・ザ・ブロークン・ブレイド" target="ゴンベモン"></edge>
+      <edge id="75" source="コンスピーラシィ・アポン・ザ・ブロークン・ブレイド" target="ウォーロック"></edge>
+      <edge id="76" source="コンスピーラシィ・アポン・ザ・ブロークン・ブレイド" target="マスター・トータス"></edge>
+      <edge id="77" source="フジ・サン・ライジング" target="ニンジャスレイヤー"></edge>
+      <edge id="78" source="フジ・サン・ライジング" target="ナンシー・リー"></edge>
+      <edge id="79" source="フジ・サン・ライジング" target="スナバ"></edge>
+      <edge id="80" source="フジ・サン・ライジング" target="ディンタキ・カツマ"></edge>
+      <edge id="81" source="フジ・サン・ライジング" target="キロバキ"></edge>
+      <edge id="82" source="フジ・サン・ライジング" target="ラオモト・カン"></edge>
+      <edge id="83" source="フジ・サン・ライジング" target="ダークニンジャ"></edge>
+      <edge id="84" source="フジ・サン・ライジング" target="サボター"></edge>
+      <edge id="85" source="ワン・ミニット・ビフォア・ザ・タヌキ" target="ニンジャスレイヤー"></edge>
+      <edge id="86" source="ワン・ミニット・ビフォア・ザ・タヌキ" target="ナンシー・リー"></edge>
+      <edge id="87" source="ワン・ミニット・ビフォア・ザ・タヌキ" target="ダイダロス"></edge>
+      <edge id="88" source="ワン・ミニット・ビフォア・ザ・タヌキ" target="フォレスト・サワタリ"></edge>
+      <edge id="89" source="ワン・ミニット・ビフォア・ザ・タヌキ" target="フォレスト・ノトーリアス"></edge>
+      <edge id="90" source="ワン・ミニット・ビフォア・ザ・タヌキ" target="フォレスト・ガガイケ"></edge>
+      <edge id="91" source="ワン・ミニット・ビフォア・ザ・タヌキ" target="フォレスト・カオルコ"></edge>
+      <edge id="92" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ニンジャスレイヤー"></edge>
+      <edge id="93" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ナンシー・リー"></edge>
+      <edge id="94" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ラオモト・カン"></edge>
+      <edge id="95" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ダークニンジャ"></edge>
+      <edge id="96" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ヘルカイト"></edge>
+      <edge id="97" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ウォーロック"></edge>
+      <edge id="98" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="トラッフルホッグ"></edge>
+      <edge id="99" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ブラックバード"></edge>
+      <edge id="100" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ビーハイヴ"></edge>
+      <edge id="101" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ワイアード"></edge>
+      <edge id="102" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="テンカウント"></edge>
+      <edge id="103" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="アルバトロス"></edge>
+      <edge id="104" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ゼブラ"></edge>
+      <edge id="105" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="クイックサンド"></edge>
+      <edge id="106" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="バタフライ"></edge>
+      <edge id="107" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="ストーンゴーレム"></edge>
+      <edge id="108" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="アガタ・マリア"></edge>
+      <edge id="109" source="ストレンジャー・ストレンジャー・ザン・フィクション" target="バジリスク"></edge>
+      <edge id="110" source="デッドムーン・オン・ザ・レッドスカイ" target="ニンジャスレイヤー"></edge>
+      <edge id="111" source="デッドムーン・オン・ザ・レッドスカイ" target="デッドムーン"></edge>
+      <edge id="112" source="デッドムーン・オン・ザ・レッドスカイ" target="スガワラノ・トミヒデ"></edge>
+      <edge id="113" source="デッドムーン・オン・ザ・レッドスカイ" target="ラオモト・カン"></edge>
+      <edge id="114" source="デッドムーン・オン・ザ・レッドスカイ" target="リー先生"></edge>
+      <edge id="115" source="デッドムーン・オン・ザ・レッドスカイ" target="レベナント"></edge>
+      <edge id="116" source="デッドムーン・オン・ザ・レッドスカイ" target="クルーカット"></edge>
+      <edge id="117" source="デッドムーン・オン・ザ・レッドスカイ" target="セントリー"></edge>
+      <edge id="118" source="アット・ザ・トリーズナーズヴィル" target="ニンジャスレイヤー"></edge>
+      <edge id="119" source="アット・ザ・トリーズナーズヴィル" target="フリックショット"></edge>
+      <edge id="120" source="アット・ザ・トリーズナーズヴィル" target="アンサラー"></edge>
+      <edge id="121" source="アット・ザ・トリーズナーズヴィル" target="プロミネンス"></edge>
+      <edge id="122" source="アット・ザ・トリーズナーズヴィル" target="バスター・テツオ"></edge>
+      <edge id="123" source="アット・ザ・トリーズナーズヴィル" target="アムニジア"></edge>
+      <edge id="124" source="ネクロマンティック・フィードバック" target="ニンジャスレイヤー"></edge>
+      <edge id="125" source="ネクロマンティック・フィードバック" target="ジェノサイド"></edge>
+      <edge id="126" source="ネクロマンティック・フィードバック" target="リー先生"></edge>
+      <edge id="127" source="ネクロマンティック・フィードバック" target="ウィルオーウィスプ"></edge>
+      <edge id="128" source="ネクロマンティック・フィードバック" target="アンドウ・コウタロウ"></edge>
+      <edge id="129" source="ネクロマンティック・フィードバック" target="シンゴ・アモ"></edge>
+      <edge id="130" source="ネクロマンティック・フィードバック" target="タバタ・ヤスキリ"></edge>
+      <edge id="131" source="ネクロマンティック・フィードバック" target="ブラックヘイズ"></edge>
+      <edge id="132" source="ア・カインド・オブ・サツバツ・ナイト" target="ニンジャスレイヤー"></edge>
+      <edge id="133" source="ア・カインド・オブ・サツバツ・ナイト" target="レオパルド"></edge>
+      <edge id="134" source="ア・カインド・オブ・サツバツ・ナイト" target="ノリべ"></edge>
+      <edge id="135" source="オウガ・ザ・コールドスティール" target="ニンジャスレイヤー"></edge>
+      <edge id="136" source="オウガ・ザ・コールドスティール" target="サブロ老人"></edge>
+      <edge id="137" source="オウガ・ザ・コールドスティール" target="マノキノ"></edge>
+      <edge id="138" source="オウガ・ザ・コールドスティール" target="ラオモト・カン"></edge>
+      <edge id="139" source="オウガ・ザ・コールドスティール" target="オムラ・チャールストン"></edge>
+      <edge id="140" source="オウガ・ザ・コールドスティール" target="モータードクロ"></edge>
+      <edge id="141" source="グランス・オブ・マザーカース" target="ニンジャスレイヤー"></edge>
+      <edge id="142" source="グランス・オブ・マザーカース" target="ナンシー・リー"></edge>
+      <edge id="143" source="グランス・オブ・マザーカース" target="バーバヤガ"></edge>
+      <edge id="144" source="グランス・オブ・マザーカース" target="シルバーキー"></edge>
+      <edge id="145" source="グランス・オブ・マザーカース" target="ケジメニンジャ"></edge>
+      <edge id="146" source="グランス・オブ・マザーカース" target="インクィジター"></edge>
+      <edge id="147" source="グランス・オブ・マザーカース" target="コラプション"></edge>
+      <edge id="148" source="バイオテック・イズ・チュパカブラ" target="ニンジャスレイヤー"></edge>
+      <edge id="149" source="バイオテック・イズ・チュパカブラ" target="ナンシー・リー"></edge>
+      <edge id="150" source="バイオテック・イズ・チュパカブラ" target="ノボセ・ゲンソン"></edge>
+      <edge id="151" source="バイオテック・イズ・チュパカブラ" target="ムギコ"></edge>
+      <edge id="152" source="バイオテック・イズ・チュパカブラ" target="モウタロウ"></edge>
+      <edge id="153" source="バイオテック・イズ・チュパカブラ" target="チュパカブラ"></edge>
+      <edge id="154" source="バイオテック・イズ・チュパカブラ" target="オダワラ"></edge>
+      <edge id="155" source="ラスト・ガール・スタンディング" target="ニンジャスレイヤー"></edge>
+      <edge id="156" source="ラスト・ガール・スタンディング" target="ヤモト・コキ"></edge>
+      <edge id="157" source="ラスト・ガール・スタンディング" target="ショーゴー・マグチ"></edge>
+      <edge id="158" source="ラスト・ガール・スタンディング" target="スーサイド"></edge>
+      <edge id="159" source="ラスト・ガール・スタンディング" target="ソニックブーム"></edge>
+      <edge id="160" source="ネオサイタマ・イン・フレイム" target="ニンジャスレイヤー"></edge>
+      <edge id="161" source="ネオサイタマ・イン・フレイム" target="ナラク"></edge>
+      <edge id="162" source="ネオサイタマ・イン・フレイム" target="ナンシー・リー"></edge>
+      <edge id="163" source="ネオサイタマ・イン・フレイム" target="アガタ・マリア"></edge>
+      <edge id="164" source="ネオサイタマ・イン・フレイム" target="ダークニンジャ"></edge>
+      <edge id="165" source="ネオサイタマ・イン・フレイム" target="マスター・クレイン"></edge>
+      <edge id="166" source="ネオサイタマ・イン・フレイム" target="マスター・トータス"></edge>
+      <edge id="167" source="ネオサイタマ・イン・フレイム" target="ラオモト・カン"></edge>
+      <edge id="168" source="ネオサイタマ・イン・フレイム" target="タダオ"></edge>
+      <edge id="169" source="ネオサイタマ・イン・フレイム" target="ブラックヘイズ"></edge>
+      <edge id="170" source="ネオサイタマ・イン・フレイム" target="ラオモトの声"></edge>
+      <edge id="171" source="ネオサイタマ・イン・フレイム" target="モータードクロ"></edge>
+      <edge id="172" source="ネオサイタマ・イン・フレイム" target="ラオモト・チバ"></edge>
+      <edge id="173" source="ネオサイタマ・イン・フレイム" target="クルーカット"></edge>
+      <edge id="174" source="ネオサイタマ・イン・フレイム" target="ゲイトキーパー"></edge>
+      <edge id="175" source="ネオサイタマ・イン・フレイム" target="スパイダー"></edge>
+      <edge id="176" source="ネオサイタマ・イン・フレイム" target="デビルフィッシュ"></edge>
+      <edge id="177" source="ネオサイタマ・イン・フレイム" target="レイザーエッジ"></edge>
+      <edge id="178" source="ネオサイタマ・イン・フレイム" target="ウォーターボード"></edge>
+      <edge id="179" source="ネオサイタマ・イン・フレイム" target="アルマジロ"></edge>
+      <edge id="180" source="ネオサイタマ・イン・フレイム" target="ヘルカイト"></edge>
+      <edge id="181" source="ネオサイタマ・イン・フレイム" target="モービッド"></edge>
+      <edge id="182" source="ネオサイタマ・イン・フレイム" target="ネコネコカワイイ"></edge>
+      <edge id="183" source="ネオサイタマ・イン・フレイム" target="ノボセ・ゲンソン"></edge>
+      <edge id="184" source="ネオサイタマ・イン・フレイム" target="フォレスト・サワタリ"></edge>
+      <edge id="185" source="ネオサイタマ・イン・フレイム" target="フォレスト・アラクニッド"></edge>
+      <edge id="186" source="ネオサイタマ・イン・フレイム" target="フォレスト・シバタ・ソウジロウ"></edge>
+      <edge id="187" source="ネオサイタマ・イン・フレイム" target="フォレスト・ジェノサイド"></edge>
+      <edge id="188" source="ネオサイタマ・イン・フレイム" target="フォレスト・カナガワ"></edge>
+      <edge id="189" source="ネオサイタマ・イン・フレイム" target="フォレスト・クルーカット"></edge>
+    </edges>
+  </graph>
+</gexf>

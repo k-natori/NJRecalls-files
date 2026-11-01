@@ -1,0 +1,71 @@
+NJRecallsParseKeys
+NJTGUserAgent|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.6.3 (KHTML, like Gecko) Version/8.0.6 Safari/600.6.3
+titleStart1|<title>
+titleEnd1|</title>
+titleTrim | - posfie
+moreStart1|var moreTweetContent = "
+moreEnd1|";
+moreBoxStart1|id="more_tweet_btn"
+moreBoxEnd1|>
+moreBoxEnd2|>
+tweetBoxStart1|class='list_box type_tweet
+tweetDivStart1|<div
+tweetDivTagStart1|<div class='list_box type_tweet
+tweetDivTag1|div
+pageStart1|class="pagenation">
+pageEnd1|</div>
+pageURLStart1|href=
+pageURLStart2|page=
+pageIntEnd1|'
+
+userImageStart1|impl_profile
+userImageStart2|data-s="
+userImageEnd1|"
+userNameStart1|<span class="status_name">@
+userNameEnd1|</span>
+urlStart1|data-id=
+urlStart2|'
+urlEnd1|'
+tweetInfoStart|<section class="entry_main tweet_box">
+tweetIDStart|data-id='
+tweetIDEnd|'
+dateStart1|<a class="link"
+dateStart2|>
+dateEnd1|</
+contentStart1|<p class='tweet
+contentStart2|>
+contentEnd1|</p
+contentImageStart1|list_photo_box
+contentImageLazy1|<img class="lazy
+contentImageLazyStart1|data-s="
+contentImageOldStart1|data-s="
+contentImageEnd1|"
+quotedTweetStart|<div class='quoted_tweet_box'>
+
+logUrlStart1|data-status-id=
+logUrlStart2|"
+logUrlEnd1|"
+logUrlIdStart|data-status-id="
+logUrlIdEnd|"
+logUrlNameStart|data-status-author="
+logUrlNameEnd|"
+logUserImageStart1|class="tl-icon
+logUserImageStart2|data-s="
+logUserImageEnd1|"
+logScreenNameStart1|<p class="tl-name">
+logScreenNameStart2|<strong>
+logScreenNameEnd1|</strong>
+logScreenNameUnknown|Unknown
+logUserNameStart1|<span>
+logUserNameEnd1|</span>
+logUserNamePrefix|@
+logContentStart1|<p class="tl-text">
+logContentEnd1|</p>
+logRTKeyword|<p class="tl-retweet">
+logTimeStart1|<p class="tl-posted">
+logTimeStart2|<a
+logTimeStart3|>
+logTimeEnd1|</a>
+logContentImageStart1|tw-img"
+logContentImageStart2|data-lazy-src="
+logContentImageEnd1|"

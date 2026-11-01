@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ボン度計算の研究用</title>
+<link rel="stylesheet" href="../standard/columns.css" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+    function OnCalculate() {
+        let string = document.inputForm.input.value;
+        string = string.replace(/\s+/g, "");
+        let table = document.getElementById("resultTable");
+        let wordRowCells = table.rows[0].cells;
+        let resultRowCells = table.rows[1].cells;
+        
+        
+        for( var i = 0; i < wordRowCells.length; i++  ){
+            let word = wordRowCells[i].innerHTML;
+            let count = ( string.match( new RegExp( word, "g" ) ) || [] ).length;
+            resultRowCells[i].innerHTML = count;
+            
+        }
+
+    }
+</script>
+
+</head>
+<body>
+<p>
+<form name="inputForm">
+<label for="input">ソース文字列</label><br>
+<textarea id="input" name="input" cols="40" rows="10"  placeholder="ここにソース文字列をペースト"></textarea>
+</form>
+<input type="button" value="計算" onclick="OnCalculate();"/>
+</p>
+<table id="resultTable" border="1">
+<tr>
+<td>ってわけ</td>
+<td>って訳</td>
+<td>ではな</td>
+<td>では無</td>
+<td>襲いかか</td>
+<td>襲い掛</td>
+<td>」「う</td>
+<td>」「ウ</td>
+<td>ツカツカ</td>
+<td>つかつか</td>
+<td>目を細め</td>
+<td>眼を細め</td>
+<td>る事は</td>
+<td>ることは</td>
+<td>はしかし</td>
+<td>しかし</td>
+<td>へと向</td>
+<td>へ向</td>
+<td>に向</td>
+<td>解らな</td>
+<td>わからな</td>
+<td>分からな</td>
+<td>判らな</td>
+<td>ヤクザたち</td>
+<td>ヤクザ達</td>
+<td>などが</td>
+<td>等が</td>
+<td>など</td>
+<td>等</td>						
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
+
+</body>
+</html>

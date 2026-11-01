@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+table {
+	width: 400px;
+	border-spacing: 1em 2px;
+}
+
+@media screen and (max-width: 500px) {
+	table {
+		width: 100%;
+	}
+}
+
+
+td {
+	text-align: center;
+	width: 25%;
+}
+
+td.fused {
+	text-align: left;
+	width: 100%;
+}
+td.marker {
+	text-align: right;
+}
+
+td.lane0 {
+	background-color: #fdd;
+}
+td.lane1 {
+	background-color: #dfd;
+}
+td.lane2 {
+	background-color: #ddf;
+}
+td.lane3 {
+	background-color: #eee;
+}
+
+td.start {
+	border-radius: 1em 1em 0 0;
+}
+td.end {
+	border-radius: 0 0 1em 1em;
+}
+td.startAndEnd {
+	border-radius: 1em 1em 1em 1em;
+}

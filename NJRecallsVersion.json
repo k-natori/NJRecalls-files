@@ -1,0 +1,9 @@
+{
+  "version_code": 42,
+  "version_name": "1.42",
+  "release_notes": "・アップデートお知らせ機能追加",
+  "apk_url": "https://7154e0d52d53852b.lolipop.jp/NJRecalls/Android/NJRecalls-1.42-app-release.apk",
+  "force_update": false,
+  "min_android_sdk": 26,
+  "max_android_sdk": 99
+}
