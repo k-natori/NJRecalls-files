@@ -1,0 +1,166 @@
+# GitHub (正本) → ロリポップ (旧バージョンアプリ向け) 自動反映
+#
+# - push 時は「前回 push からの差分（追加・変更・リネーム）」だけを FTPS でアップロードする。
+#   全ファイルを上げるとロリポップ側の Last-Modified が全て更新され、旧アプリの更新チェックで
+#   全リストが「更新あり」になってしまうため、差分のみに限定している。
+# - 削除は反映しない（GitHub で消したファイルはロリポップ側に残る。必要なら手動で削除）。
+# - 手動実行 (Actions → Deploy to Lolipop → Run workflow):
+#     paths     : 改行区切りで指定したファイルだけアップロード（例: NJRecallsLatest.txt）
+#     full_sync : 全ファイルをアップロード（削除なし）。全ファイルの Last-Modified が更新される点に注意
+#
+# 必要な Secrets (Settings → Secrets and variables → Actions):
+#   LOLIPOP_FTP_HOST      例: ftp.lolipop.jp
+#   LOLIPOP_FTP_USER      ロリポップの FTP アカウント
+#   LOLIPOP_FTP_PASSWORD  ロリポップの FTP パスワード
+#   LOLIPOP_REMOTE_DIR    FTP ルートから見た NJRecalls ディレクトリ 例: /NJRecalls
+
+name: Deploy to Lolipop
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - ".github/**"
+  workflow_dispatch:
+    inputs:
+      paths:
+        description: "アップロードするファイル（改行区切り、リポジトリルートからの相対パス）"
+        required: false
+        default: ""
+      full_sync:
+        description: "全ファイルをアップロードする（削除なし・全ファイルの Last-Modified が更新される）"
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: deploy-lolipop
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install lftp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      - name: Select files
+        id: select
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          INPUT_PATHS: ${{ github.event.inputs.paths }}
+          FULL_SYNC: ${{ github.event.inputs.full_sync }}
+        run: |
+          set -euo pipefail
+          # 作業ファイルはチェックアウト外に置く（full_sync の mirror でアップロードされないように）
+          cd "$GITHUB_WORKSPACE"
+          W="$RUNNER_TEMP"
+          # アップロード対象外（リポジトリ管理用ファイル）
+          EXCLUDE_RE='^\.git|^\.github/|^\.nojekyll$|(^|/)\.DS_Store$'
+          : > "$W/files.txt"
+          mode=diff
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            if [ "$FULL_SYNC" = "true" ]; then
+              mode=full
+            elif [ -n "$INPUT_PATHS" ]; then
+              printf '%s\n' "$INPUT_PATHS" | sed -e 's/\r$//' -e '/^[[:space:]]*$/d' > "$W/files.txt"
+            else
+              echo "::error::手動実行では paths か full_sync を指定してください"
+              exit 1
+            fi
+          elif [ -n "$BEFORE" ] && ! echo "$BEFORE" | grep -qE '^0+$' && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            git -c core.quotepath=off diff --name-only --diff-filter=ACMRT "$BEFORE" "$AFTER" > "$W/files.txt"
+          else
+            # 初回 push / force push 等で前回コミットが辿れない場合は、最新コミットの変更分のみ
+            echo "::warning::前回 push のコミットが見つからないため、最新コミットの変更分のみアップロードします"
+            git -c core.quotepath=off show --name-only --diff-filter=ACMRT --pretty=format: "$AFTER" | sed '/^$/d' > "$W/files.txt"
+          fi
+
+          if [ "$mode" = "diff" ]; then
+            grep -Ev "$EXCLUDE_RE" "$W/files.txt" > "$W/filtered.txt" || true
+            : > "$W/files.txt"
+            while IFS= read -r f; do
+              if [ -f "$f" ]; then
+                printf '%s\n' "$f" >> "$W/files.txt"
+              else
+                echo "::warning::存在しないためスキップ: $f"
+              fi
+            done < "$W/filtered.txt"
+            echo "count=$(wc -l < "$W/files.txt" | tr -d ' ')" >> "$GITHUB_OUTPUT"
+          else
+            echo "count=all" >> "$GITHUB_OUTPUT"
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "mode=$mode"
+          cat "$W/files.txt"
+
+      - name: Upload via FTPS
+        if: steps.select.outputs.mode == 'full' || steps.select.outputs.count != '0'
+        env:
+          FTP_HOST: ${{ secrets.LOLIPOP_FTP_HOST }}
+          FTP_USER: ${{ secrets.LOLIPOP_FTP_USER }}
+          LFTP_PASSWORD: ${{ secrets.LOLIPOP_FTP_PASSWORD }}
+          REMOTE_DIR: ${{ secrets.LOLIPOP_REMOTE_DIR }}
+          MODE: ${{ steps.select.outputs.mode }}
+        run: |
+          set -euo pipefail
+          for v in FTP_HOST FTP_USER LFTP_PASSWORD REMOTE_DIR; do
+            if [ -z "${!v}" ]; then echo "::error::Secret が未設定です: $v"; exit 1; fi
+          done
+          REMOTE_DIR="${REMOTE_DIR%/}"
+          W="$RUNNER_TEMP"
+
+          {
+            echo "set ftp:ssl-force true"
+            echo "set ftp:ssl-protect-data true"
+            echo "set ssl:verify-certificate yes"
+            echo "set net:max-retries 3"
+            echo "set net:timeout 30"
+            echo "set cmd:fail-exit true"
+            # パスワードは環境変数 LFTP_PASSWORD から読ませる（スクリプトに書かない）
+            echo "open --env-password -u \"$FTP_USER\" \"$FTP_HOST\""
+            if [ "$MODE" = "full" ]; then
+              # --delete は付けない（削除は反映しない）
+              echo "mirror -R --no-perms --verbose --exclude-glob .git* --exclude .git/ --exclude .github/ --exclude-glob .nojekyll --exclude-glob .DS_Store . \"$REMOTE_DIR\""
+            else
+              while IFS= read -r f; do
+                d=$(dirname "$f")
+                if [ "$d" = "." ]; then t="$REMOTE_DIR"; else t="$REMOTE_DIR/$d"; fi
+                echo "mkdir -p -f \"$t\""
+                echo "put -O \"$t\" \"$f\""
+              done < "$W/files.txt"
+            fi
+            echo "bye"
+          } > "$W/upload.lftp"
+
+          lftp -f "$W/upload.lftp"
+
+      - name: Summary
+        if: always()
+        env:
+          MODE: ${{ steps.select.outputs.mode }}
+        run: |
+          W="$RUNNER_TEMP"
+          {
+            echo "### Lolipop deploy ($MODE)"
+            if [ "$MODE" = "full" ]; then
+              echo "全ファイル同期（削除なし）"
+            elif [ -s "$W/files.txt" ]; then
+              echo '```'
+              cat "$W/files.txt"
+              echo '```'
+            else
+              echo "アップロード対象なし"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
